@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+
+<struts>
+
+	<constant name="struts.convention.default.parent.package"
+		value="default" />
+
+	<constant name="struts.convention.result.path" value="/WEB-INF/view/" />
+
+
+
+	<package name="default" extends="struts-default, jsr303">
+
+		<!-- Bean Validation -->
+		<default-interceptor-ref name="jsr303ValidationStack" />
+
+		<global-results>
+			<result name="error">error.jsp</result>
+		</global-results>
+
+		<action name="index">
+			<result>/index.jsp</result>
+		</action>
+
+	</package>
+
+</struts>

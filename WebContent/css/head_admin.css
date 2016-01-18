@@ -1,0 +1,110 @@
+body {
+	text-align:center;
+	color:#FFFFFF
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#wrap {
+	width:1300px;
+	text-align:left;
+	margin:0 auto;
+	background:url(/scsbsmpp/images/bg.png) no-repeat top;
+	height:900px
+}
+.float-l {
+	float:left
+}
+.folat-r {
+	float:right;
+}
+.clearfix {
+	clear:both
+}
+.left {
+	width:250px
+}
+.right {
+	width:680px;
+	height:658px;
+	margin-top:70px;
+	padding:0 30px;
+	color:#fff
+}
+.right img {
+	padding:30px 0
+}
+.right a {
+	color:#CCCCCC
+}
+/* header */
+#logo {
+	background:url(/scsbsmpp/images/top.gif) no-repeat;
+	margin-top:70px;
+	height:120px;
+	color:#000000
+}
+#header h1 {
+	font-size:32px;
+	text-align: center;
+	padding-top: 30px;
+}
+#logo div {
+	text-align:right;
+	padding-right: 50px;
+}
+ul#nav {
+	padding-left: 110px;
+	padding-top: 28px;
+}
+ul#nav li {
+	line-height:30px
+}
+ul#nav a {
+	color:#FFFFFF;
+	font-weight:700
+}
+/* content */
+#content {
+}
+#top {
+	width: 355px;
+}
+#top h2 {
+	font-size:30px;
+	font-weight:700;
+	padding:25px 0
+}
+#top p {
+	padding-bottom:5px
+}
+#right-content {
+	height:650px
+}
+#xhtml {
+	text-align:center
+}
+.section {
+	float:left;
+	width:600px
+}
+div.section h2 { font-size:20px ; padding:10px 0}
+div.section ul { padding:0px 20px}
+
+/* footer */
+#footer {
+	background:url(/scsbsmpp/images/bm.gif) no-repeat;
+	margin-top: 233px;
+	height:123px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+#footer a {
+	color:#346599
+}
+#ftlink, #copyright {
+	width:260px
+}
