@@ -1,4 +1,4 @@
-<%@page import="com.scsb.bean.Admin"%>
+<%@page import="com.scsb.bean.Admin"%> 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
